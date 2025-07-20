@@ -1,34 +1,9 @@
-<<<<<<< HEAD
 
--------- Xác thực laptop và github ----------
-=======
 -------- Xác thực laptop và github -----------
 >>>>>>> login
 git config --global user.name "phha205"
 git config --global user.email "hoanganh.phanho205@gmail.com"
 khi nào đổi laptop mới thì làm lại
-
-
-<<<<<<< HEAD
--------- Các bước khi tạo 1 repo github để nộp bài --------
-1. Tạo repo trên github (remote repo)
-2. Chuyển folder code sang local repo
-   - git init
-3. Thiết lập kết nối giữa : local repo (laptop) và remote repo (github) [mỗi dự án làm 1 lần]
-   - git remote add origin https://github.com/phha205/bc86-demo-git.git
-4. Đưa file code từ laptop lên github (nhập đủ bộ 3, khác ở bước cuối git push)
-   - git add -A
-   - git commit -m "message"
-   - git push
-   + lần 1: git push -u origin master hoặc là main (lần 1 đẩy lên)
-   + lần 2 3: git push
-
-5. tạo nhánh: cú pháp
-   git checkout -b "tên nhánh"
-6. chuyển nhánh: cú pháp
-    git checkout "tên nhánh muốn chuyển" (trong trường hợp này là nhánh main)
-    
-=======
 
 
 -------- Các bước khi tạo 1 repo github để nộp bài --------
